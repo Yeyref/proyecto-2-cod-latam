@@ -1,126 +1,184 @@
 <!DOCTYPE html>
 <html lang="es">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Yeferson Rosales</title>
 
-    <link rel="shortcut icon" href="img/naciones-unidas.png" type="image/x-icon" />
+    <link
+      rel="shortcut icon"
+      href="img/naciones-unidas.png"
+      type="image/x-icon"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
 
-    <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="css/normalize.css" />
-</head>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
 
-<body>
+  <body>
     <header>
-        <div class="header__nav">
-            <a href="index.html">
-                <img src="img/y-r-logo.png" width="80" alt="Logo YR" />
-            </a>
-            <nav class="header__nav--item">
-                <ul id="menu">
-                    <li class="menuItem activo"><a href="#inicio">Inicio</a></li>
-                    <li class="menuItem"><a href="#contacto">Contacto</a></li>
-                    <li class="menuItem"><a href="#proyectos">Proyectos</a></li>
-                </ul>
-                <div>
-                    <button id="bdark">Modo Oscuro</button>
-                </div>
+      <nav class="header__nav">
+        <a href="index.html">
+          <img src="img/y-r-logo.png" width="80" alt="Logo YR" />
+        </a>
+        <div class="header__nav--item">
+          <div class="navbar-toggle">
+            <span class="toggle-icon"></span>
+            <span class="toggle-icon"></span>
+            <span class="toggle-icon"></span>
+          </div>
 
-            </nav>
+          <ul id="menu">
+            <li class="menuItem activo"><a href="#inicio">Inicio</a></li>
+            <li class="menuItem"><a href="#contacto">Contacto</a></li>
+            <li class="menuItem"><a href="#proyectos">Proyectos</a></li>
+          </ul>
+          <div>
+            <button id="bdark">Modo Oscuro</button>
+          </div>
         </div>
+      </nav>
     </header>
 
     <main>
-        <section class="principal" id="inicio">
-            <div class="principalView">
-                <div class="principal__img">
-                    <img class="principal__img--borde" src="img/PHOTO-2023-06-22-14-11-18.jpg" width="300"
-                        alt="Imagen de Gatito" />
-                </div>
-                <div class="principalView__text">
-                    <h1>Hola! Soy Yeferson</h1>
-                    <p class="textoJustificado">
-                        Un entusiasta desarrollador trainee con una sólida base en tecnologías web. Mi pasión por la
-                        programación me ha llevado a explorar y adquirir conocimientos en diversas áreas de desarrollo,
-                        combinando mis
-                        habilidades técnicas con un espíritu curioso y ganas constantes de aprender.
-                        <br>
-                        He estado trabajando en distintos proyectos adquiriendo conocimientos en HTML5, CSS3,
-                        JavaScript, JQuery, VueJS.
-                        Mi objetivo es contribuir al crecimiento y la innovación en el campo de
-                        la tecnología, aportando soluciones creativas y eficientes a los desafíos que se presenten.
-                        <br>
-                        Actualmente, estoy en búsqueda de nuevas oportunidades laborales en las que pueda aplicar mis
-                        habilidades y continuar desarrollándome profesionalmente. Siempre estoy abierto a colaboraciones
-                        interesantes y proyectos emocionantes en los que pueda dejar mi huella.
+      <section class="principal" id="inicio">
+        <div class="principalView">
+          <div class="principal__img">
+            <img
+              class="principal__img--borde"
+              src="img/PHOTO-2023-06-22-14-11-18.jpg"
+              width="300"
+              alt="Imagen de Gatito"
+            />
+          </div>
+          <div class="principalView__text">
+            <h1>Hola! Soy Yeferson</h1>
+            <p class="textoJustificado">
+              Un entusiasta desarrollador trainee con una sólida base en
+              tecnologías web. Mi pasión por la programación me ha llevado a
+              explorar y adquirir conocimientos en diversas áreas de desarrollo,
+              combinando mis habilidades técnicas con un espíritu curioso y
+              ganas constantes de aprender.
+              <br />
+              He estado trabajando en distintos proyectos adquiriendo
+              conocimientos en HTML5, CSS3, JavaScript, JQuery, VueJS.
+              <br />
+              <br />
+              Mi objetivo es contribuir al crecimiento y la innovación en el
+              campo de la tecnología, aportando soluciones creativas y
+              eficientes a los desafíos que se presenten.
+              <br />
+              Actualmente, estoy en búsqueda de nuevas oportunidades laborales
+              en las que pueda aplicar mis habilidades y continuar
+              desarrollándome profesionalmente. Siempre estoy abierto a
+              colaboraciones interesantes y proyectos emocionantes en los que
+              pueda dejar mi huella.
+            </p>
 
-                    </p>
+            <a
+              href="pdf/CV Yeferson Rosales program.pdf"
+              download="CVYeferson.pdf"
+              class="botonCV"
+              target="_blank"
+              >Descargar mi CV</a
+            >
+          </div>
+        </div>
+      </section>
 
-                    <a href="pdf/CV Yeferson Rosales program.pdf" download="CVYeferson.pdf" class="botonCV"
-                        target="_blank">Descargar mi CV</a>
-                </div>
-            </div>
-        </section>
+      <section class="secundaria" id="contacto">
+        <div class="apoyo__texto">
+          <h2>Hablemos!</h2>
+          <p>
+            Si estás buscando un desarrollador motivado, comprometido, orientado
+            a resultados y con la mejor disposicion de aprender, no dudes en
+            contactarme. Estoy emocionado por las oportunidades que el mundo de
+            la tecnología ofrece y ansioso por formar parte de proyectos
+            innovadores.
+          </p>
+        </div>
+        <div class="secundaria__item">
+          <a
+            href="mailto:yefersonj.rr@gmail.com?Subject=Busco%20tu%20perfil%20desarrollador"
+            ><img src="img/mail.png" width="60"
+          /></a>
+          <a href="https://github.com/Yeyref"
+            ><img src="img/github.png" width="60" alt="github" target="_blank"
+          /></a>
+          <a href="https://www.linkedin.com/in/yeferson-rosales-4a37aa15a/"
+            ><img
+              src="img/linkedin.png"
+              width="60"
+              alt="linkedin"
+              target="_blank"
+          /></a>
+        </div>
+      </section>
 
-        <section class="secundaria" id="contacto">
-            <div class="apoyo__texto">
-                <h2>Hablemos!</h2>
-                <p>
-                    Si estás buscando un desarrollador motivado, comprometido,
-                    orientado a resultados y con la mejor disposicion de aprender, no dudes en
-                    contactarme. Estoy emocionado por las oportunidades que el mundo de la tecnología ofrece y
-                    ansioso por formar parte de proyectos innovadores.
-                </p>
-            </div>
-            <div class="secundaria__item">
-                <a href="mailto:yefersonj.rr@gmail.com?Subject=Busco%20tu%20perfil%20desarrollador"><img
-                        src="img/mail.png" width="60" /></a>
-                <a href="https://github.com/Yeyref"><img src="img/github.png" width="60" alt="github"
-                        target="_blank" /></a>
-                <a href="https://www.linkedin.com/in/yeferson-rosales-4a37aa15a/"><img src="img/linkedin.png" width="60"
-                        alt="linkedin" target="_blank" /></a>
-            </div>
-        </section>
+      <section id="proyectos">
+        <div class="apoyo__texto">
+          <h2>Proyectos Favoritos</h2>
+          <p>
+            Estos proyectos son a los que mas les tengo aprecio, ya que con
+            ellos aprendí y entendí varias logicas y tecnologias. Todo hecho con
+            el apoyo de bootcamps, material en internet y sobre todo
+            <strong>Código pa'lante</strong>
+          </p>
+        </div>
 
-        <section id="proyectos">
-            <div class="apoyo__texto">
-                <h2>Proyectos Favoritos</h2>
-                <p>
-                    Estos proyectos son a los que mas les tengo aprecio,
-                    ya que con ellos aprendí y entendí varias logicas y tecnologias.
-                    Todo hecho con el apoyo de bootcamps, material en internet y sobre todo <strong>Código
-                        pa'lante</strong>
-                </p>
-            </div>
-
-            <div class="secundaria__item ">
-                <a class="proyectos__item" href="https://yeyref.github.io/FestivalMusica_inicio/"><img
-                        src="img/screenshot_proyectorock.png" width="400" /></a>
-                <a class="proyectos__item" href="https://yeyref.github.io/digimonYR/"><img
-                        src="img/screenshot_proyectodigimon.png" width="400" alt="github" target="_blank" /></a>
-                <a class="proyectos__item" href="https://yeyref.github.io/drillingCue4/"><img
-                        src="img/screenshot_proyectolista.png" width="400" alt="linkedin" target="_blank" /></a>
-            </div>
-
-
-        </section>
+        <div class="secundaria__item secundaria__item--nodesktop">
+          <a
+            class="proyectos__item"
+            href="https://yeyref.github.io/FestivalMusica_inicio/"
+          >
+            <img
+              class="proyectos__item--img"
+              src="img/Screenshot_rockjpeg.jpg"
+              width="400"
+          /></a>
+          <a class="proyectos__item" href="https://yeyref.github.io/digimonYR/">
+            <img
+              class="proyectos__item--img"
+              src="img/Screenshot_digimonjpeg.jpg"
+              width="400"
+              alt="github"
+              target="_blank"
+          /></a>
+          <a
+            class="proyectos__item"
+            href="https://yeyref.github.io/drillingCue4/"
+          >
+            <img
+              class="proyectos__item--img"
+              src="img/Screenshot_listagastosjgep.jpg"
+              width="400"
+              alt="linkedin"
+              target="_blank"
+          /></a>
+        </div>
+      </section>
     </main>
 
     <footer>
-        <h4 class="footer__texto">Código Latam. Todos los Derechos Reservados.</h4>
+      <h4 class="footer__texto">
+        Código Latam. Todos los Derechos Reservados.
+      </h4>
     </footer>
 
     <script src="js/script.js"></script>
-</body>
-
+  </body>
 </html>
