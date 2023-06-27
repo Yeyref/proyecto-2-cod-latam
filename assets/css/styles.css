@@ -64,6 +64,10 @@ footer {
   justify-content: space-around;
 }
 
+footer p{
+  font-weight: 700;
+}
+
 .header__nav {
   display: flex;
   justify-content: space-between;
